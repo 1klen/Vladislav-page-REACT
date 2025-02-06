@@ -1,0 +1,36 @@
+.item-contact {
+  text-align: center;
+
+  @media (max-width: 610px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-weight: 500;
+    text-align: left;
+  }
+}
+.item-contact__image {
+  width: 32px;
+  img {
+    width: 100%; 
+  }
+  margin: 0 auto;
+
+  @media (max-width: 610px) {
+    margin: 0;
+  }
+}
+.item-contact__text {
+  font-size: 14px;
+  line-height: 21.28px;
+  font-weight: 300;
+  color: #414141;
+  margin: 10px 0 0 0;
+
+  @media (max-width: 610px) {
+    flex: 0 1 210px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}

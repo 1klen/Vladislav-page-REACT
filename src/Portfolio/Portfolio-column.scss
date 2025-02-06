@@ -1,0 +1,19 @@
+.portfolio__column {
+  flex: 0 1 33.333%;
+  padding: 10px;
+
+  @media (max-width: 992px) {
+    flex: 0 1 50%;
+  }  
+}
+.portfolio__image {
+  max-width: 313px;
+  
+  img {
+    max-width: 100%;
+  }
+
+  @media (max-width: 992px) {
+    max-width: 100%;
+  }
+}

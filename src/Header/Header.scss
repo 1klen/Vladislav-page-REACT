@@ -1,0 +1,47 @@
+.header {
+    background: url('../assets/bg/header-bg.JPG') center/cover no-repeat;
+    position: relative;
+  
+    .container {
+      padding: 0 75px;
+    }
+    @media (max-width: 767px) {
+      .container {
+        padding: 0 20px;
+      }
+    }
+  }
+  .header__overlay-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #155c7a, $alpha: 0.5);
+    z-index: 1;
+  }
+  .page__header {
+    padding: 190px 0 135px 0;
+    @media (max-width: 767px) {
+      padding: 160px 0 125px 0;
+    }
+  }
+  .header__info {
+    max-width: 629px;   
+    position: relative; 
+    z-index: 2;
+  }
+  .header__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    margin: 0 0 11px 0;
+  }
+  .header__subtitle {
+    font-size: 18px;
+    font-weight: 300; // light
+    margin: 0 0 10px 0;
+  }
+  .header__link {
+    margin: 20px 0 0 0;
+  }

@@ -1,0 +1,16 @@
+.experience {
+  padding: 80px 0;
+}
+.experience__title {
+  margin: 0 0 70px 0;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+#column3 {
+  .item-timeline__sphere::after {
+    display: none;
+  }
+}

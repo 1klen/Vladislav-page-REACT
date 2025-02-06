@@ -1,0 +1,32 @@
+$BACKGROUND: #78BECD; 
+
+.skills {
+  padding: 80px 0;
+  background-color: $BACKGROUND;
+}
+.skills__title {
+  margin: 0 0 100px 0;
+  @media (max-width: 992px) {
+    margin: 0 0 60px 0;
+  }
+}
+.skills__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -55px;
+
+  @media (max-width: 992px) {
+    margin: 0 -25px;
+  }
+}
+.skills__column {
+  flex: 0 1 25%;
+  padding: 0 55px;
+  display: flex;
+  justify-content: center;
+  
+  @media (max-width: 992px) {
+    flex: 0 1 50%;
+    padding: 20px;
+  }
+}

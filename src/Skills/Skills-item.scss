@@ -1,0 +1,31 @@
+.item-skills {
+    width: 111px;
+  }
+  .item-skills__value {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 10px 0;
+  }
+  .item-skills__line {
+    display: flex;
+    height: 10px;
+  }
+  .item-skills__line-white {
+    flex: 0 1 28px;
+    background-color: #fff;
+  }
+  .item-skills__line-black {
+    flex: 0 1 111px;
+    background-color: #000000;
+  }
+  .item-skills__list{
+    margin: 10px 0 0 0;
+  }
+  .item-skills__item {
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+  }
